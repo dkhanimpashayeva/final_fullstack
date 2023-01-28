@@ -1,0 +1,23 @@
+.project {
+    background-color: #28AE60;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+line-height: 40px;
+    .project-text {
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        line-height: 40px;
+
+        button {
+            border: 1px solid white;
+            padding: 5px 25px;
+            background-color: transparent;
+            color: white;
+        margin: 40px 0;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.features{
+margin:50px 0;
+background-image: url("https://preview.colorlib.com/theme/busicol/img/banner/about_bg.png");
+height: 50vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+.features-container{
+    height: 50vh; 
+    background-color: rgba(0,0,0,0.7);
+}
+    .features-card{
+        margin-top: 70px;
+        border:1px solid white;
+        text-align: center;
+        padding:50px 30px;
+        color:white;
+        line-height: 40px;
+        transition: 0.3s ease-in;
+       line-height: 30px;
+       img{
+        margin: 40px 0;
+       }
+        &:hover{
+            background-color: #28AE60;
+            color:white;
+        }
+    }
+}
