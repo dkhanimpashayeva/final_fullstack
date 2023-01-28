@@ -1,3 +1,4 @@
+import About from "../pages/About";
 import Add from "../pages/Add/Add";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
@@ -35,6 +36,10 @@ export const ROUTES=[
         {
             path:'services',
             element:<Services/>
+        },
+        {
+            path:'about',
+            element:<About/>
         },
     ]
 }
